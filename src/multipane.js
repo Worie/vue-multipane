@@ -37,8 +37,7 @@ export default {
 
   methods: {
     onMouseDown(e) {
-      let resizer = e.target;
-      if (resizer.className && typeof resizer.className === 'string' && resizer.className.match('multipane-resizer')) {
+      let resizer = e.target.closest('.multipane-resizer');
         e.preventDefault();
         let initialPageX, initialPageY
         if (e.type == "touchstart") {
@@ -138,7 +137,6 @@ export default {
         addEventListener('mouseup', onMouseUp);
         addEventListener('touchmove', onMouseMove);
         addEventListener('touchend', onMouseUp);
-      }
     },
   },
 };

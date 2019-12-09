@@ -50,7 +50,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-scss": "^0.3.0",
     "rollup-plugin-uglify": "^2.0.1",
-    "rollup-plugin-vue": "^2.5.0",
+    "rollup-plugin-vue": "^5.0.0",
     "uglify-es": "^3.1.2",
     "vue": "^2.4.4",
     "yargs": "^9.0.1"
